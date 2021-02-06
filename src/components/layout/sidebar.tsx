@@ -83,11 +83,11 @@ export default function SidebarApp(){
         </MenuItem>
         <MenuItem>
         <InfoSquare size={30} color="white"/>
-            <Link to="/metrics">Metrics</Link>
+            <Link to="/home/metrics">Metrics</Link>
         </MenuItem>
         <MenuItem>
         <CodeAlt size={30} color="white"/>
-            <Link to="/console">Console</Link>
+            <Link to="/home/console">Console</Link>
         </MenuItem>
         <MenuDivider title="Management"/>
         <MenuItem>

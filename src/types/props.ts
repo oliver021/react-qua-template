@@ -16,7 +16,7 @@ export interface ColumnProps{
     sm?: number;
     offset?: number;
     maxContent?: boolean;
-    height?: number;
+    height?: string | number;
     bg?: string;
 }
 

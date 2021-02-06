@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'rendition';
+import 'chartist/dist/chartist.css';
 
 import './index.css';
 import App from './App';

@@ -13,7 +13,7 @@ export const Column = styled.div`
     float: left;
     ${(props: ColumnProps) => props.bg ? "background-color:"+(props.bg)+";" : ""}
     ${(props: ColumnProps) => !props.offset ? "" : "margin-left: "+(props.offset * 8.33)+"%"}
-    height: ${(props: ColumnProps) => props.maxContent ? "100hv" : (props.height !== undefined ? props.height+"px" : "auto")};
+    height: ${(props: ColumnProps) => props.maxContent ? "100hv" : (props.height !== undefined ? props.height : "auto")};
     width: ${(props: ColumnProps) => props.xs ? props.xs * 8.33 : 100 }%;
 
     @media only screen and (min-width: 1200px){
